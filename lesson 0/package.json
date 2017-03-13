@@ -2,9 +2,11 @@
   "name": "angular2-training",
   "version": "1.0.0",
   "description": "this is the initial folder for the project configuration",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server",
+    "gulp": "gulp",
+    "start": "concurrent \"npm run gulp\" \"npm run lite\" ",
+    "typings": "typings"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,30 @@
   "bugs": {
     "url": "https://github.com/kiga01/angular2-training/issues"
   },
-  "homepage": "https://github.com/kiga01/angular2-training#readme"
+  "homepage": "https://github.com/kiga01/angular2-training#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.21",
+    "es6-promise": "^4.1.0",
+    "es6-shim": "^0.35.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.20.9",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "concurrently": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-compass": "^2.1.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.5",
+    "gulp-uglify": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "lite-server": "^2.0.1",
+    "precss": "^1.4.0",
+    "typings": "^2.1.0"
+  }
 }
