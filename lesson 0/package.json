@@ -23,8 +23,11 @@
   "homepage": "https://github.com/kiga01/angular2-training#readme",
   "dependencies": {
     "angular2": "^2.0.0-beta.21",
+    "bootstrap-sass": "^3.3.6",
     "es6-promise": "^4.1.0",
     "es6-shim": "^0.35.3",
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.2.2",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.6",
     "systemjs": "0.20.9",
