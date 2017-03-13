@@ -1,0 +1,22 @@
+{
+  "name": "angular2-training",
+  "version": "1.0.0",
+  "description": "this is the initial folder for the project configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kiga01@github.com/kiga01/angular2-training.git"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiga01/angular2-training/issues"
+  },
+  "homepage": "https://github.com/kiga01/angular2-training#readme"
+}
